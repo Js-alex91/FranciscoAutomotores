@@ -1,0 +1,574 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+
+h3{
+  padding-top: 13px; 
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  /* border-top: white solid 2px; */
+  background: grey;
+  border: #6E6465 solid 3px;
+  color: black;
+  border: color gray;
+  font-size: 32px;
+  text-shadow: white;
+  text-shadow: -2px 2px 5px white;
+  /* text-combine-upright: inherit; */
+  font-style: italic;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+body {
+  background: black;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+/* encabezado */
+
+#header {
+  width: 100%;
+  height: 281px;
+  margin: 0px;
+  padding: 10px;
+}
+
+#logo {
+  padding: 0px;
+  margin: 0px;
+  width: 25%;
+  height: 250px;
+  border: 5px solid black;
+  text-align: center;
+  float: left;
+}
+
+#logo img {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.contactos {
+  height: 250px;
+  width: 39%;
+  border: black 4px solid;
+  float: left;
+  padding: 10px;
+}
+
+.contactos ul {
+  list-style: none;
+  float: left;
+  padding: 0px;
+}
+.contactos ul li {
+  padding-top: 10px;
+  font-size: 20px;
+  float: left;
+  width: 100%;
+}
+
+.img {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.contactos ul li:hover {
+  background-color: green;
+  box-shadow: 0px 0px 4px greenyellow inset;
+  color: black inset;
+  transition: all 300ms;
+}
+
+video {
+  width: 438px;
+}
+
+/* Fin del encabezado */
+
+#separador {
+  height: 103px;
+  width: 100%;
+  margin: 0px auto;
+  background: linear-gradient(rgb(0, 136, 11), transparent);
+}
+
+#separador h1 {
+  text-align: center;
+  margin: 0px;
+  background: linear-gradient(rgb(0, 136, 11), transparent);
+  margin-bottom: 50px;
+}
+
+#separador2 {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+video {
+  width: 440px;
+}
+
+.titulodeauto:hover {
+  background-color: green;
+  box-shadow: 0px 0px 4px greenyellow inset;
+  color: black inset;
+}
+
+.titulodeauto > h2:hover {
+  background-color: green;
+  box-shadow: 0px 0px 4px greenyellow inset;
+  color: black inset;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  justify-content: flex-end;
+  padding: 0 20px 10px 0;
+  font-size: 13px;
+  text-align: center;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.prueba {
+
+  margin-bottom: 3%;
+  margin-top: 3%;
+  text-shadow: rgb(255, 255, 255) 2px 2px ;
+  color: green;
+  font-size: 35px;
+}
+
+#wp {
+  position: fixed;
+  right: 41px;
+  bottom: 16px;
+  width: 60px;
+  z-index: 1000; }
+
+#ub {
+  position: fixed;
+  right: 41px;
+  bottom: 90px;
+  width: 60px;
+  z-index: 1000; }
+
+#wpfijo {
+  width: 100%;
+  height: auto; }
+
+/* --------------celular ------
+
+   
+@media (max-width: 360px) {
+  #logo {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #logo img {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+ 
+  .contactos {
+    padding: 0px;
+    margin: 0px;
+    float: none;
+    width: 100%;
+  }
+ 
+
+  video {
+  
+    margin: 0px;
+    width: 100%;
+    float: left;
+   
+  }
+
+  #header {
+
+    height: 469px;
+    margin-bottom: 227px;
+
+  }
+  
+  #separador {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    float: none;
+    height: 204px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  #logo {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #logo img {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+ 
+  .contactos {
+    padding: 0px;
+    margin: 0px;
+    float: none;
+    width: 100%;
+  }
+ 
+
+  video {
+  
+    margin: 0px;
+    width: 100%;
+    float: none;
+   
+  }
+
+  #header {
+
+    height: 478px;
+    margin-bottom: 228px;
+
+  }
+  
+  #separador {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    float: none;
+  }
+
+
+   .prueba{
+
+    width: 100%;
+    margin-top: 26%;
+   }
+
+}
+
+@media (max-width: 411px) {
+  #logo {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #logo img {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+ 
+  .contactos {
+    padding: 0px;
+    margin: 0px;
+    float: none;
+    width: 100%;
+  }
+ 
+
+  video {
+  
+    margin: 0px;
+    width: 100%;
+    float: none;
+   
+  }
+
+  #header {
+
+    height:656px;
+    margin-bottom: 74px;
+
+  }
+  
+  #separador {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    float: none;
+    height: 159px;
+  }
+
+
+   .prueba{
+
+    width: 100%;
+    
+   }
+
+}
+
+
+@media (max-width: 414px){
+
+
+  .prueba{
+
+    width: 100%;
+    margin-top: 58px;
+  }
+
+  body{
+    width: 100%;
+  }
+
+  #header {
+
+    height: 654px;
+    margin-bottom: 74px;
+
+  }
+
+  #logo {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #logo img {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+ 
+  .contactos {
+    padding: 0px;
+    margin: 0px;
+    float: none;
+    width: 100%;
+  }
+
+  video {
+  
+    margin: 0px;
+    width: 100%;
+    float: none;
+   
+  }
+
+
+
+
+}
+
+
+
+.fix {
+  float: none;
+  clear: both;
+}
+
+/*--------------tablet-
+
+
+@media (max-width: 1024px) {
+  #logo {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #logo img {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+ 
+  .contactos {
+    padding: 0px;
+    margin: 0px;
+    float: none;
+    width: 100%;
+  }
+
+  #header{
+    height: 930px;
+  }
+
+  video {
+  
+    margin: 0px;
+    width: 100%;
+    
+   
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  #logo {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #logo img {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+ 
+  .contactos {
+    padding: 0px;
+    margin: 0px;
+    float: none;
+    width: 100%;
+  }
+
+  #header{
+    height: 930px;
+  }
+
+  video {
+  
+    margin: 0px;
+    width: 100%;
+    
+   
+  }
+}
+
+
+---------------*/
+
+@media (max-width: 1245px) {
+
+
+  video{ width: 35%; 
+    float: left;
+  }
+
+  .prueba{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+  }
+
+
+}
+
+@media (max-width: 1030px){
+
+  .prueba{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+  }
+
+
+  video{
+    width: 100%;
+    float: none;  
+  }
+  
+ #logo {
+
+   width: 50%;
+
+ }
+
+ .contactos {
+
+  width: 50%;
+
+ }
+
+  #header{
+
+    height: 35%;
+  }
+
+}
+
+@media (max-width: 674px){
+
+
+  #logo{
+
+    width: 100%;
+    
+
+  }
+
+  .contactos{
+    width: 90%;
+    float: none;
+    text-align: center;
+  }
+
+  .prueba{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+  }
+
+}
+
+@media (max-width: 618px){
+
+  .prueba{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+  }
+
+ #separador2{
+   margin-top: 10%;
+
+   margin-bottom: 10%;
+ }
+
+ #separador{
+
+  margin-buttom: 21%;
+ 
+   }
+}
+
+@media (max-width:414px ){  
+
+
+
+
+  .prueba{
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+  }
+
+ #separador2{
+   
+ }
+
+ #separador{
+
+    height: 0%;
+  }
+}
